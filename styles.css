@@ -4,7 +4,6 @@
 }
 
 .square {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,16 +16,14 @@
 
 .square:hover {
 cursor: pointer;
-
 }
 
-#container .square .hide{
-  visibility: hidden;
-  color: aliceblue;
+.hide {
+  display: none;
+  color: white;
 }
 
-.square .hide:hover {
-  color: aliceblue;
-  visibility: visible;
+.square:hover .hide {
+  display: block;
 }
 
