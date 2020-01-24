@@ -15,6 +15,11 @@
   background-color: black;
 }
 
+.square:hover {
+cursor: pointer;
+
+}
+
 #container .square .hide{
   visibility: hidden;
   color: aliceblue;
